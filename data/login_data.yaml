@@ -1,0 +1,29 @@
+test_login_001:
+  username: "13488834010"
+  password: "159357li"
+  tag: 1
+
+test_login_002:
+  username: " 13488834010"
+  password: "159357li"
+  tag: 1
+
+test_login_003:
+  username: "13488834010 "
+  password: "159357li"
+  tag: 1
+
+test_login_006:
+  username: "13488834010"
+  password: "9998888"
+  get_toast_msg: "登录密码"
+  except_msg: "登录密码错误"
+  tag: 0
+
+test_login_010:
+  username: "111中国"
+  password: "9998888"
+  get_toast_msg: "不存在"
+  except_msg: "此用户不存在"
+  tag: 0
+
